@@ -1,27 +1,17 @@
-## Laravel PHP Framework
+## Community社区
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+基于Laravel5.1 PHP Framework开发的问答聊天社区  
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+基本实现了用户注册登录，密码修改，新帖发布，旧帖修改，帖子阅读，帖子评论，操作提示等功能  
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+## 使用  
 
-## Official Documentation
-
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+1. 命令行进入本地项目根目录，运行命令 `` clone git@github.com:a416237796/Community.git  ``  
+2. 修改 `` .env.example `` 为 `` .env ``
+3. 编辑器打开`` .env `` 文件，修改数据库账号密码，配置邮箱服务器及邮箱账号密码  
+4. 命令行运行 `` php artisan key:generate `` 生成你的新的密钥
+5. 命令行运行 `` composer install `` 安装框架核心及相关插件  
+6. 命令行运行 `` php artisan migrate `` 还原数据库
+7. 浏览器打开项目链接，一般默认为 `` localhost ``   
+# 完成，enjoy it ！
+作者邮箱：<a href="mailto:a416237796@126.com">a416237796@126.com</a>  
